@@ -1,0 +1,26 @@
+package co.sabi11.pet;
+
+import co.sabi11.pet.SubClass.Dog;
+import co.sabi11.pet.SubSubClass.Dachshund;
+import co.sabi11.pet.Super.Pet;
+
+public class MyPet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Pet cat = new Pet("Cat");
+		Pet dog = new Dog("Dog", "Bobby", 5, "Sit");
+		Pet dachshund = new dachshund("Dachshund", "Tacsiii", 3, "hunting", "3kg");
+		
+		System.out.println("1. Cat: ");
+		cat.display();
+		System.out.println("2. Dog: "); 
+		dog.display();
+		
+		System.out.println("3. Dachshund: "); 
+		dachshund.display();
+		
+	}
+
+}

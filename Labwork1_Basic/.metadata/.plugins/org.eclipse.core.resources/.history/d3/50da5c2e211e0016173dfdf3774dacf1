@@ -1,0 +1,11 @@
+package co.sabi11.pet;
+
+public class Pet {
+
+	//Attributes
+	private String petName;
+	private int petAge;
+	
+	// Blank Constructor
+	public Pet() {}
+}

@@ -1,0 +1,45 @@
+package co.sabi11.pet;
+
+import co.sabi11.pet.SubClass.Cat;
+import co.sabi11.pet.SubClass.Dog;
+import co.sabi11.pet.SubSubClass.Dachshund;
+import co.sabi11.pet.Super.Pet;
+
+public class MyPet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Pet pet = new Pet();
+		Pet cat1 = new Cat("Cat1", "Miau", 3, "Mice");
+		Pet cat2 = new Cat("Cat2", "Micky", 2, "Rat");
+		Pet dog1 = new Dog("Dog1", "Bobby", 5, "Sit", "Steak");
+		Pet dog2 = new Dog("Dog2", "James", 4, "Jump", "Royal Canin");
+		Pet dog3 = new Dog("Dog23", "Joe", 3, "Sleep", "Raw Meat");
+		Pet dachshund = new Dachshund("Dachshund", "Tacsiii", 3, "hunting", "smoked bone", 3);
+			
+		Object[] myPetList = new Object[7];
+		myPetList[0] = pet;
+		myPetList[1] = cat1;
+		myPetList[2] = dog1;
+		myPetList[3] = cat2;
+		myPetList[4] = dog2;
+		myPetList[5] = dog3;
+		myPetList[6] = dachshund;
+
+		// Print the objects in a for-loop
+		for (Object myPet : myPetList) {
+			acceptPet(myPet);
+		}
+		
+		acceptPet(dachshund);
+	}
+	
+	public static void acceptPet(Object myPet) {
+		myPet.display();
+		myPet.feedPet();
+		System.out.println("##########################################################");
+		
+	}
+
+}

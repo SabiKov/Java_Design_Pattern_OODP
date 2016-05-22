@@ -1,0 +1,10 @@
+package co.sabi11.pet;
+
+public class MyPet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

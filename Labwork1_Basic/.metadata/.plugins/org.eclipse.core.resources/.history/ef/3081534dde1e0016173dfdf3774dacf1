@@ -1,0 +1,65 @@
+package co.sabi11.pet;
+
+public class Pet {
+
+	//Attributes
+	private String petType;
+	private String petName;
+	private int petAge;
+	
+	// Blank Constructor
+	public Pet() {}
+	
+
+	//Overloaded Constructor
+	public Pet(String petName) {
+		this.petName = petName;
+	}
+	
+	public Pet(String petName, int petAge) {
+		
+		this.petName = petName;
+		this.petAge = petAge;
+	}
+	
+	public Pet(String petType, String petName, int petAge) {
+		
+		this.petType = petType;
+		this.petName = petName;
+		this.petAge = petAge;
+	}
+
+
+	public String getPetType() {
+		return petType;
+	}
+
+
+	public void setPetType(String petType) {
+		this.petType = petType;
+	}
+
+
+	public String getPetName() {
+		return petName;
+	}
+
+
+	public void setPetName(String petName) {
+		this.petName = petName;
+	}
+
+
+	public int getPetAge() {
+		return petAge;
+	}
+
+
+	public void setPetAge(int petAge) {
+		this.petAge = petAge;
+	}
+	
+	public void toStirng() {
+		
+	}
+}

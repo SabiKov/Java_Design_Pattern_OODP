@@ -1,0 +1,17 @@
+package co.sabi11.pet;
+
+public class Dachshund extends Dog {
+	
+	private String size;
+
+	public Dachshund(String petType, String petName, int petAge, String tricks, String size) {
+		super(petType, petName, petAge, tricks);
+		
+		this.size = size;
+	}
+
+	public void display() {
+
+		System.out.println("Dachshund Class: Pet type:" + petType + " Name: " + petName + " Age: " + petAge + " Trick: " + tricks);
+	}
+}

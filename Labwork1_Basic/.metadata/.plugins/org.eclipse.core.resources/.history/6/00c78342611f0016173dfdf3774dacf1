@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package co.sabi11.pet.SubClass;
+
+import co.sabi11.pet.Super.Pet;
+
+/**
+ * @author Sabi
+ *
+ */
+public class Cat extends Pet {
+	
+	private String petFood = "I love to eat mice";
+	
+	//Polymorphism and dynamic binding
+	public void feedPet() {
+		System.out.println(this.getClassName() + " : " + petFood);
+	}
+
+}

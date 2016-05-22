@@ -1,0 +1,24 @@
+package co.sabi11.pet;
+
+public class Pet {
+
+	//Attributes
+	private String petType = "";
+	private String petName = "";
+	private int petAge = 0;
+	
+	// Blank Constructor
+	public Pet() {}
+	
+
+	//Overloaded Constructor
+	public Pet(String petName) {
+		this.petName = petName;
+	}
+	
+	public Pet(String petName, int petAge) {
+		
+		this.petName = petName;
+		this.petAge = petAge;
+	}
+}

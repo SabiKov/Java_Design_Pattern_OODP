@@ -1,0 +1,19 @@
+package co.sabi11.pet;
+
+public class MyPet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Pet cat = new Pet("Cat");
+		Dog dog = new Dog("Dog", "Bobby", 5, "Sit");
+		Dachshund dachshund = new Dachshund("Dachshund", "Tacsiii", 3, "hunting", "3kg");
+		
+		System.out.println("1. Dog: ");
+		cat.display();
+		System.out.println("2. Dog: "); 
+		dog.display();
+		
+	}
+
+}

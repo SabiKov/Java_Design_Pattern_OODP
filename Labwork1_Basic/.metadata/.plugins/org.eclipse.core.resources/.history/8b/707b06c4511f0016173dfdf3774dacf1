@@ -1,0 +1,22 @@
+package co.sabi11.pet.SubClass;
+
+import co.sabi11.pet.Abstract.Pet;
+
+public class Dog extends Pet {
+	
+	//Attribute
+	protected String tricks;
+	
+	
+	public Dog(String petType, String petName, int petAge, String tricks) {
+		// calling superClass's values
+		super(petType, petName, petAge);
+		this.tricks = tricks;		
+	}
+	
+	public void display() {
+
+		System.out.println("Dog Class: Pet type:" + petType + " Name: " + petName + " Age: " + petAge + " Trick: " + tricks);
+	}
+
+}

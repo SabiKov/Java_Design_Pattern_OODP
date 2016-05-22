@@ -1,0 +1,20 @@
+package co.sabi11.pet;
+
+public class Dog extends Pet {
+	
+	//Attribute
+	private String tricks;
+	
+	
+	public Dog(String petType, String petName, int petAge, String tricks) {
+		super();
+		this.tricks = tricks;		
+	}
+	
+	public void display() {
+		
+		System.out.println("Trick: " + tricks);
+		System.out.println("Pet type:" + petType + " Name: " + petName + " Age: " + petAge);
+	}
+
+}
