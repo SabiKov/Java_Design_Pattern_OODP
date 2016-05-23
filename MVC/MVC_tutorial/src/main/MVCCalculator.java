@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package main;
+
+import controller.CalculatorController;
+import model.CalculatorModel;
+import view.CalculatorView;
+
+/**
+ * @author Sabi
+ *
+ */
+public class MVCCalculator {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		CalculatorView theView = new CalculatorView();
+		
+		CalculatorModel theModel = new CalculatorModel();
+		
+		CalculatorController theController = new CalculatorController(theModel, theView);
+		
+		theView.setVisible(true);
+		
+	}
+
+}

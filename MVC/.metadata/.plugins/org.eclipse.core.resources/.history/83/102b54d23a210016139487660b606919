@@ -1,0 +1,34 @@
+package controller;
+
+import java.awt.event.ActionListener;
+
+import model.CalculatorModel;
+import view.CalculatorView;
+
+/*
+ * This is an online tutorial
+ * ref: https://www.youtube.com/watch?v=dTVVa2gfht8
+ * */
+
+
+public class CalculatorController {
+	
+	private CalculatorModel theModel;
+	private CalculatorView theView;
+	
+	
+	public CalculatorController(CalculatorModel theModel, CalculatorView theView ) {
+		
+		this.theView = theView;
+		this.theModel = theModel;
+		
+		this.theView.addCalculationListener(new CalculateListener());
+	}
+
+	
+	//Inner class
+	
+	class CalculateListener implements ActionListener{
+		
+	}
+}

@@ -1,0 +1,52 @@
+package controller;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import model.CalculatorModel;
+import view.CalculatorView;
+
+/*
+ * This is an online tutorial
+ * ref: https://www.youtube.com/watch?v=dTVVa2gfht8
+ * */
+
+
+public class CalculatorController {
+	
+	private CalculatorModel theModel;
+	private CalculatorView theView;
+	
+	
+	public CalculatorController(CalculatorModel theModel, CalculatorView theView ) {
+		
+		this.theView = theView;
+		this.theModel = theModel;
+		
+		this.theView.addCalculationListener(new CalculateListener());
+	}
+
+	
+	//Inner class
+	
+	class CalculateListener implements ActionListener{
+
+		@Override
+		public void actionPerformed(ActionEvent arg0) {
+			
+			int firstNumber, secondNumber = 0;
+			
+			try {
+				
+				firstNumber = theView.getFirstNumber();
+				secondNumber = theView.getSecondNumber();
+				
+				theModel.addTwoNumbers(firstNumber, secondNumber);
+				
+				theView.setCalcSolution(theModel.getCalculationValue());
+			}
+			
+		}
+		
+	}
+}

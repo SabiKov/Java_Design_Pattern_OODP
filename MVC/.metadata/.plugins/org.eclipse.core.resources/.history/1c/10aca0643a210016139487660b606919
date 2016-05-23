@@ -1,0 +1,16 @@
+package controller;
+
+import model.CalculatorModel;
+
+/*
+ * This is an online tutorial
+ * ref: https://www.youtube.com/watch?v=dTVVa2gfht8
+ * */
+
+
+public class CalculatorController {
+	
+	private CalculatorModel theModel;
+	private CalculatorView theView;
+
+}
