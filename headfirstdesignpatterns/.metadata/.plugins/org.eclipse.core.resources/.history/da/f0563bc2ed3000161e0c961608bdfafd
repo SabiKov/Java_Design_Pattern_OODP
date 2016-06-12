@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package co.sabi11.display;
+
+import java.util.Observable;
+import java.util.Observer;
+
+import co.sabi11.interfaces.DisplayElement;
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class ForecastDisplay implements Observer, DisplayElement  {
+
+	/**
+	 * Constructor
+	 */
+	public ForecastDisplay(Observable observable) {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void update(Observable o, Object arg) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

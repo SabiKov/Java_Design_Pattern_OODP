@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package co.sabi11.interfaces;
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class WeatherData {
+
+	/**
+	 * 
+	 */
+	public WeatherData() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

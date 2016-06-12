@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package co.sabi11.main;
+
+import co.sabi11.display.CurrentConditionsDisplay;
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class WeatherStation {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		WeatherData weatherData = new WeatherData();
+		
+		CurrentConditionsDisplay currentConditionDisplay = new CurrentConditionsDisplay(weatherData);
+		StatisticsDisplay statisticsDisplay = new StatisticsDispaly(weatherData);
+
+	}
+
+}

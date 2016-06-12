@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package co.sabi11.display;
+
+import java.util.Observable;
+import java.util.Observer;
+
+import co.sabi11.interfaces.DisplayElement;
+import co.sabi11.main.WeatherData;
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class HeatIndexDisplay implements Observer, DisplayElement {
+
+	//Attributes
+	private float heatIndex = 0.0f;
+	
+	
+	/**
+	 * Constructor 
+	 */
+	public HeatIndexDisplay(Observable observable) {
+		observable.addObserver(this);
+	}
+
+	@Override
+	public void display() {
+		System.out.println("Heat index is " + heatIndex);
+		
+	}
+
+	@Override
+	public void update(Observable observable, Object arg) {
+		if(observable instanceof WeatherData) {
+			WeatherData weatherData = (WeatherData) observable;
+			
+			float temperature = weatherData.getTemperature();
+			float humidity = weatherData.getHumidity();
+		}
+		
+	}
+
+}

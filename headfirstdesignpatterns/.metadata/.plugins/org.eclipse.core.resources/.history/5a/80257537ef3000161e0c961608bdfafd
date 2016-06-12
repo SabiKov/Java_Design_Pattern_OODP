@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package co.sabi11.main;
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class WeatherStation {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

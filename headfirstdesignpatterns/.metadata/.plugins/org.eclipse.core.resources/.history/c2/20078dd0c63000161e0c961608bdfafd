@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package co.sabi11.interfaces;
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class WeatherData implements Subject {
+
+}

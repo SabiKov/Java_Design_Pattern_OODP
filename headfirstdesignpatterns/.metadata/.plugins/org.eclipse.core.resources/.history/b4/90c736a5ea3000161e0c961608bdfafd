@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package co.sabi11.display;
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class CurrentConditionsDisplay {
+
+	/**
+	 * 
+	 */
+	public CurrentConditionsDisplay() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

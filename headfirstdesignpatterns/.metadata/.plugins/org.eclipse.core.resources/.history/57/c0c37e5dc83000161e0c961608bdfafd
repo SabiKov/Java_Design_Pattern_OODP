@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+package co.sabi11.interfaces;
+
+import java.util.ArrayList;
+
+/**
+ * @author Szabolcs
+ * Implementation of the Subject interface 
+ *
+ */
+public class WeatherData implements Subject {
+
+	// Attributes with local focus (accessible)
+	private ArrayList observers;
+	private float temperature;
+	private float humidity;
+	private float pressure;
+	
+	//Constructor
+	public WeatherData() {
+		observers = new ArrayList<>();
+	}
+	
+	@Override
+	public void registerObserver(Observer o) {
+	
+		observers.add(o);
+	}
+	@Override
+	public void removeObserver(Observer o) {
+		
+		int i = observers.indexOf(o);
+		if(i >= 0) {
+			observers.remove(i);
+		}
+	}
+	@Override
+	public void notifyObservers() {
+	
+		for (int i = 0; i < observers.size(); i++ ) {
+			Observer observer = (Observer)observers.get(i);
+			observer.update(temperature, humidity, pressure);
+			
+		}
+	}
+	
+	public void measurementsChanged() {
+		notifyObservers();
+	}
+}
