@@ -1,0 +1,12 @@
+package co.sabi11.subclass;
+
+public class ReadheadDuck {
+
+	
+	@Override
+	public void display() {
+		
+		System.out.println("I'm a real Mallard duck");
+		
+	}
+}

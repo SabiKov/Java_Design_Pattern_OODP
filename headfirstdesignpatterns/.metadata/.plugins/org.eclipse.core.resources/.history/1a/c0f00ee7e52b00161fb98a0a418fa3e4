@@ -1,0 +1,32 @@
+import co.sabi11.base.AbstractDuck;
+import co.sabi11.subclass.MallardDuck;
+
+/**
+ * 
+ */
+
+/**
+ * @author Sabi
+ *
+ */
+public class MiniDuckSimulator {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		// Create a MallardDuck object with test its behaviours.
+		AbstractDuck mallard = new MallardDuck();	
+		mallard.performQuack();
+		mallard.performFly();
+		
+		//Create a ModelDuck object with test its behaviours, using runtime settings
+		
+		AbstractDuck model = new ModelDuck();
+		model.performFly();
+		model.setFlyBehaviour(new FlyRocketPowered());
+
+	}
+
+}

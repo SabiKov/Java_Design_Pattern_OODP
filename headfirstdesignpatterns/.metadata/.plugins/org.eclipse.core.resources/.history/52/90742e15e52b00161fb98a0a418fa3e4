@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package co.sabi11.subclass;
+
+import co.sabi11.base.AbstractDuck;
+
+/**
+ * @author Sabi
+ *
+ */
+public class ModelDuck extends AbstractDuck {
+
+}

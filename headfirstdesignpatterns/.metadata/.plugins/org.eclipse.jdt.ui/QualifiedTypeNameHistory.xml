@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="co.sabi11.interfaces.QuackBehaviour"/>
+<fullyQualifiedTypeName name="co.sabi11.base.AbstractDuck"/>
+<fullyQualifiedTypeName name="co.sabi11.interfaces.Quack"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="co.sabi11.interfaces.FlyRocketPowered"/>
+<fullyQualifiedTypeName name="co.sabi11.subclass.ModelDuck"/>
+<fullyQualifiedTypeName name="co.sabi11.interfaces.FlyWithWings"/>
+<fullyQualifiedTypeName name="co.sabi11.interfaces.FlyNoWay"/>
+</qualifiedTypeNameHistroy>
