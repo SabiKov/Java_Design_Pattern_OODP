@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package co.sabi11.displays;
+
+import co.sabi11.interfaces.Subject;
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class HeatIndexDisplay implements Observer, DisplayElement {
+
+	// Attributes
+	private float heatIndex = 0.0f;
+	private Subject weatherData;
+	
+	/**
+	 * Constructor 
+	 */
+	public HeatIndexDisplay(Subject weatherData) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

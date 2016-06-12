@@ -1,0 +1,9 @@
+package co.sabi11.displays;
+
+public class ForecastDisplay {
+
+	public ForecastDisplay() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

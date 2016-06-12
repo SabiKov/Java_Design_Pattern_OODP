@@ -1,0 +1,17 @@
+package co.sabi11.displays;
+
+import co.sabi11.interfaces.Subject;
+
+public class ForecastDisplay implements Observer, DisplayElements {
+	
+	// Attributes
+	private float currentPressure = 29.92f;
+	private float lastPressure;
+	private Subject weatherData;
+
+	public ForecastDisplay(Subject weaterData) {
+		this.weatherData = weatherData;
+		weatherData.registerObserver(this);
+	}
+
+}

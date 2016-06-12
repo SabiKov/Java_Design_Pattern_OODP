@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package observerswing;
+
+import javax.swing.JFrame;
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class SwingObserverexmaple {
+
+	JFrame frame;
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		SwingObserverexmaple example = new SwingObserverexmaple();
+		example.go();
+	}
+	
+	public void go() {
+		frame = new JFrame();
+	}
+
+}

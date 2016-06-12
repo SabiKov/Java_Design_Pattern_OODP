@@ -1,0 +1,14 @@
+package co.sabi11.displays;
+
+public class ForecastDisplay {
+	
+	// Attributes
+	private float currentPressure = 29.92f;
+	private float lastPressure;
+	private Subject weatherData;
+
+	public ForecastDisplay() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

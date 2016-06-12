@@ -8,4 +8,26 @@
 <fullyQualifiedTypeName name="co.sabi11.subclass.ModelDuck"/>
 <fullyQualifiedTypeName name="co.sabi11.interfaces.FlyWithWings"/>
 <fullyQualifiedTypeName name="co.sabi11.interfaces.FlyNoWay"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="co.sabi11.displays.CurrentConditionsDisplay"/>
+<fullyQualifiedTypeName name="co.sabi11.displays.StatisticsDisplay"/>
+<fullyQualifiedTypeName name="co.sabi11.displays.ForecastDisplay"/>
+<fullyQualifiedTypeName name="co.sabi11.interfaces.Subject"/>
+<fullyQualifiedTypeName name="co.sabi11.interfaces.Observer"/>
+<fullyQualifiedTypeName name="co.sabi11.displays.HeatIndexDisplay"/>
+<fullyQualifiedTypeName name="java.util.Observable"/>
+<fullyQualifiedTypeName name="co.sabi11.display.CurrentConditionsDisplay"/>
+<fullyQualifiedTypeName name="co.sabi11.display.ForecastDisplay"/>
+<fullyQualifiedTypeName name="co.sabi11.display.StatisticsDisplay"/>
+<fullyQualifiedTypeName name="co.sabi11.interfaces.DisplayElement"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="co.sabi11.main.WeatherData"/>
+<fullyQualifiedTypeName name="java.awt.HeadlessException"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.adapters.HexBinaryAdapter"/>
+<fullyQualifiedTypeName name="co.sabi11.display.HeatIndexDisplay"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="observerswing.SwingObserverexmaple"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 </qualifiedTypeNameHistroy>

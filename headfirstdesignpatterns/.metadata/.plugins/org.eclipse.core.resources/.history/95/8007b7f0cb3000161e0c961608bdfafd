@@ -1,0 +1,27 @@
+import co.sabi11.displays.CurrentConditionsDisplay;
+
+/**
+ * 
+ */
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class WeatherStation {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		// Create weatherData object
+		WeatherData weatherData = new WeatherData();
+
+		CurrentConditionsDisplay currentDisplay = 
+				new CurrentConditionsDisplay(weatherData);
+		
+		weatherData.setMeasurements(80, 65, 30.4f);
+	}
+
+}

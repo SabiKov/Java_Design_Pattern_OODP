@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package co.sabi11.displays;
+
+import co.sabi11.interfaces.DisplayElement;
+
+/**
+ * @author Szabolcs
+ *
+ */
+public class StatisticsDisplay implements Observer, DisplayElement {
+
+	// Attributes with this class "local" scope accessible
+	private float maxTemp = 0.0f;
+}
