@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package co.sabi11.base;
+
+/**
+ * @author Sabi
+ *
+ */
+public enum Size {
+
+	TALL,
+	GRANDE,
+	VENTI
+}

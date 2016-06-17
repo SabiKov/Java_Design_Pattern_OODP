@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package co.sabi11.base;
+
+/**
+ * @author Sabi
+ *
+ */
+public abstract class Beverage {
+
+	String description = "Uknown Beverage";
+	
+	public String getDescription() {
+		
+	}
+
+}

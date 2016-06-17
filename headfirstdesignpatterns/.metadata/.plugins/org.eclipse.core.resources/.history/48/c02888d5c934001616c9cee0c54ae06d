@@ -1,0 +1,9 @@
+package co.sabi11.subclass.decorators;
+
+public class SteamedMilk extends CondimentDecorator {
+
+	public SteamedMilk() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package co.sabi11.subclass.decorators;
+
+import co.sabi11.base.Beverage;
+import co.sabi11.base.CondimentDecorator;
+
+/**
+ * @author Sabi
+ *
+ */
+public class Mocha extends CondimentDecorator {
+
+	Beverage beverage;
+	
+	/**
+	 * 
+	 */
+	public Mocha() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double cost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

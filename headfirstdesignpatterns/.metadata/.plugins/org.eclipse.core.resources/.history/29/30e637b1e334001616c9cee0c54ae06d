@@ -1,0 +1,17 @@
+package co.sabi11.subclasses;
+
+import co.sabi11.base.Beverage;
+
+public class HouseBlend extends Beverage {
+
+	public HouseBlend() {
+		description = ""; 
+	}
+
+	@Override
+	public double cost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

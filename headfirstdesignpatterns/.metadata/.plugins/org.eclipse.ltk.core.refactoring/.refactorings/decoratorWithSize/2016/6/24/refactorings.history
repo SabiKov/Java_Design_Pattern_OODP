@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Size.java&apos; to &apos;decoratorWithSize/src/co.sabi11.enumClass&apos;&#x0D;&#x0A;- Original project: &apos;decoratorWithSize&apos;&#x0D;&#x0A;- Destination element: &apos;decoratorWithSize/src/co.sabi11.enumClass&apos;&#x0D;&#x0A;- Original element: &apos;co.sabi11.base.Size.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;co.sabi11.enumClass" element1="/src&lt;co.sabi11.base{Size.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1466205790133" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,9 @@
+package co.sabi11.subclass;
+
+public class HouseBlend {
+
+	public HouseBlend() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

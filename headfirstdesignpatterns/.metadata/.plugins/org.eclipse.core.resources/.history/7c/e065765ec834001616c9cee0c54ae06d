@@ -1,0 +1,11 @@
+package co.sabi11.subclass.decorators;
+
+public class Whip extends CondimentDecorator {
+	
+	Beverage beverage;
+
+	public Whip() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

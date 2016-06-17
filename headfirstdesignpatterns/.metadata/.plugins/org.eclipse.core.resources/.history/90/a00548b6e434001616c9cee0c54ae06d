@@ -1,0 +1,26 @@
+package co.sabi11.subclasses.decorators;
+
+import co.sabi11.base.Beverage;
+import co.sabi11.base.CondimentDecorator;
+
+public class Soy extends CondimentDecorator {
+
+	public Soy(Beverage beverage) {
+		this.beverage = beverage;
+	}
+
+	@Override
+	public String getDescription() {
+		
+		return beverage.getDescription() + ", Soy";
+	}
+
+	@Override
+	public double cost() {
+		
+		double cost = beverage.cost();
+		
+		return cost;
+	}
+
+}

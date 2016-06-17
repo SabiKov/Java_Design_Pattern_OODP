@@ -1,0 +1,9 @@
+package co.sabi11.subclasses;
+
+public class Decaf extends Beverage {
+
+	public Decaf() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

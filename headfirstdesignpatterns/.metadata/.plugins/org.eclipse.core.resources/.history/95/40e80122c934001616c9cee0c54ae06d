@@ -1,0 +1,18 @@
+package co.sabi11.main;
+
+import co.sabi11.base.Beverage;
+import co.sabi11.subclass.Espresso;
+
+public class StarbuzzCoffee {
+
+	public static void main(String[] args) {
+		
+		// Make a basic espresso without any condiment 
+		Beverage beverage = new Espresso();
+		System.out.println(beverage.getDescription() + " $" + beverage.cost());
+		
+		
+
+	}
+
+}

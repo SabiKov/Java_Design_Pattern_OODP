@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package co.sabi11.subclass.decorators;
+
+/**
+ * @author Sabi
+ *
+ */
+public class Mocha {
+
+	/**
+	 * 
+	 */
+	public Mocha() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

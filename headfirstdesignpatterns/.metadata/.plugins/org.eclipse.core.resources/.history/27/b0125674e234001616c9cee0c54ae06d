@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package co.sabi11.base;
+
+/**
+ * @author Sabi
+ *
+ */
+public abstract class Beverage {
+	
+	Size size = Size.TALL;
+	protected String description = "Unknwon Beverage";
+
+	
+}

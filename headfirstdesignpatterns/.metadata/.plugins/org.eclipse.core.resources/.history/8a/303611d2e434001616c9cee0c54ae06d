@@ -1,0 +1,9 @@
+package co.sabi11.subclasses.decorators;
+
+public class Whip {
+
+	public Whip() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

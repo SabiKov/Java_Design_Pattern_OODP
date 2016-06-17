@@ -1,6 +1,0 @@
-package co.sabi11.interfaces;
-
-public class FlyRocketPowered implements FlyBehaviour  {
-
-	
-}
