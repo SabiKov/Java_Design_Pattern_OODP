@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package co.sabi11.base.extend;
+
+import co.sabi11.factory.interfaces.PizzaIngredientFactory;
+
+/**
+ * @author Sabi
+ *
+ */
+public class CheesePizza {
+
+	// Instantiate factory
+	PizzaIngredientFactory ingredientFactory;
+	
+	
+	/**
+	 * 
+	 */
+	public CheesePizza(PizzaIngredientFactory ingredientFactory) {
+		
+		this.ingredientFactory = ingredientFactory;
+	}
+
+}

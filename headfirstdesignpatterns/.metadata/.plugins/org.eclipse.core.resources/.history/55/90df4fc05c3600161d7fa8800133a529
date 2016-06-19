@@ -1,0 +1,13 @@
+package co.sabi11.store.subclasses;
+
+import co.sabi11.base.PizzaStore;
+
+public class CaliforniaPizzaStore extends PizzaStore {
+
+	@Override
+	protected void createPizza(String type) {
+		
+		
+	}
+
+}

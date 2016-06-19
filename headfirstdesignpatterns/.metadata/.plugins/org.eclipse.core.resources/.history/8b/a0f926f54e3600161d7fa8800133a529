@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package co.sabi11.items.interfaces.implementations;
+
+/**
+ * @author Sabi
+ * Implementation of Clams interface
+ */
+public class FreshClams {
+	
+	public String toString() {
+		return "Fresh Clams from Long Island Sound";
+	}
+}

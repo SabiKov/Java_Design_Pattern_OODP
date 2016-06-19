@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package co.sabi11.pizzas;
+
+/**
+ * @author Sabi
+ *
+ */
+public class VeggiePizza {
+
+	/**
+	 * 
+	 */
+	public VeggiePizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

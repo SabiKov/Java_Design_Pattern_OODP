@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package co.sabi11.factory;
+
+/**
+ * @author Sabi
+ *
+ */
+public class SimplePizzaFactory {
+
+	/**
+	 * 
+	 */
+	public SimplePizzaFactory() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package co.sabi11.base.extend;
+
+import co.sabi11.base.Pizza;
+
+/**
+ * @author Sabi
+ *
+ */
+public class PepperoniPizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public PepperoniPizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	protected void prepare() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

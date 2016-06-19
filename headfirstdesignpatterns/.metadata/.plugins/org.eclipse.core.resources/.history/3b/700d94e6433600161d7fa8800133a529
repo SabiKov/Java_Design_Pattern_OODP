@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package co.sabi11.base;
+
+/**
+ * @author Sabi
+ *
+ */
+public abstract class PizzaStore {
+
+}

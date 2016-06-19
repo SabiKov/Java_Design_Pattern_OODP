@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package co.sabi11.factories;
+
+import co.sabi11.factory.interfaces.PizzaIngredientFactory;
+
+/**
+ * @author Sabi
+ *
+ */
+public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
+
+}

@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package co.sabi11.factory;
+
+/**
+ * @author Sabi
+ * This is a simple factory class. It has one job in life: creating pizzas
+ * for its clients
+ */
+public class SimplePizzaFactory {
+
+	public Pizza createPizza(String type) {
+		
+	}
+
+}

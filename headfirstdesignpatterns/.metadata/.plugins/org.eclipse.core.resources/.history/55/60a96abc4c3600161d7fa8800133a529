@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package co.sabi11.factories;
+
+/**
+ * @author Sabi
+ *
+ */
+public class NYPizzaIngredientFactory {
+
+}

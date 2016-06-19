@@ -1,0 +1,9 @@
+package co.sabi11.pizzas;
+
+public class ClamPizza {
+
+	public ClamPizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package co.sabi11.items.interfaces.implementations;
+
+/**
+ * @author Sabi
+ * dough interface implementation
+ */
+public class ThinCrustDough implements Dough {
+
+}

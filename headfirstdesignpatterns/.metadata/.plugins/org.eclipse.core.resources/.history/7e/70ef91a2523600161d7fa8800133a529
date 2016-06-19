@@ -1,0 +1,48 @@
+package co.sabi11.factories;
+
+import co.sabi11.factory.interfaces.PizzaIngredientFactory;
+import co.sabi11.items.interfaces.Cheese;
+import co.sabi11.items.interfaces.Clams;
+import co.sabi11.items.interfaces.Dough;
+import co.sabi11.items.interfaces.Pepperoni;
+import co.sabi11.items.interfaces.Sauce;
+import co.sabi11.items.interfaces.Veggies;
+
+public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
+
+	@Override
+	public Dough createDough() {
+		return new ThickCrustDough();
+	}
+
+	@Override
+	public Sauce createSauce() {
+		return new PlumTomatoSauce();
+	}
+
+	@Override
+	public Cheese createCheese() {
+		return new MozzarellaCheese();
+	}
+
+	@Override
+	public Veggies[] createVeggies() {
+		Veggies veggies[] = { new BlackOlives(), 
+                new Spinach(), 
+                new Eggplant() };
+return veggies;
+	}
+
+	@Override
+	public Pepperoni createPepperoni() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Clams createClam() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

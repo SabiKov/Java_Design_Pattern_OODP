@@ -1,0 +1,9 @@
+package co.sabi11.pizza.subclasses;
+
+public class NYStyleClamPizza {
+
+	public NYStyleClamPizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

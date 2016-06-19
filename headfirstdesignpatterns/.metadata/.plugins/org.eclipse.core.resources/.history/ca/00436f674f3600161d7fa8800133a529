@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package co.sabi11.items.interfaces.implementations;
+
+/**
+ * @author Sabi
+ * Implementation of Veggies IF
+ */
+public class Mushroom {
+	
+	public String toString() {
+		return "Mushroom";
+	}
+}

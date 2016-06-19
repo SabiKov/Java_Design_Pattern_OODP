@@ -1,0 +1,9 @@
+package co.sabi11.storeSubclasses;
+
+public class NYPizzaStroe {
+
+	public NYPizzaStroe() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

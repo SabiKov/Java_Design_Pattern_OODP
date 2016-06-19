@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package co.sabi11.base.extend;
+
+/**
+ * @author Sabi
+ *
+ */
+public class PepperoniPizza {
+
+	/**
+	 * 
+	 */
+	public PepperoniPizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package co.sabi11.store;
+
+import co.sabi11.factory.SimplePizzaFactory;
+
+/**
+ * @author Sabi
+ *
+ */
+public class PizzaStore {
+
+	// Adding reference of pizza factory
+	SimplePizzaFactory facotry;
+	/**
+	 * 
+	 */
+	public PizzaStore() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

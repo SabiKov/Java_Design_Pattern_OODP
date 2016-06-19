@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package co.sabi11.base.extend;
+
+import co.sabi11.base.Pizza;
+
+/**
+ * @author Sabi
+ *
+ */
+public class ClamPizza extends Pizza {
+
+	PizzaIngredientFactory ingredientFactory;
+	
+	/**
+	 * 
+	 */
+	public ClamPizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	protected void prepare() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

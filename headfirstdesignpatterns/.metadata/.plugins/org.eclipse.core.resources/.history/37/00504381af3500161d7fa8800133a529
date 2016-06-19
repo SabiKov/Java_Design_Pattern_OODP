@@ -1,0 +1,23 @@
+package co.sabi11.storeSubclasses;
+
+import co.sabi11.base.Pizza;
+import co.sabi11.base.PizzaStore;
+import co.sabi11.pizza.subclasses.ChicagoStyleCheesePizza;
+import co.sabi11.pizza.subclasses.ChicagoStyleClamPizza;
+import co.sabi11.pizza.subclasses.ChicagoStylePepperoniPizza;
+import co.sabi11.pizza.subclasses.ChicagoStyleVeggiePizza;
+
+public class ChicagoPizzaStore extends PizzaStore {
+
+	public Pizza createPizza(String item) {
+    	if (item.equals("cheese")) {
+    		return new ChicagoStyleCheesePizza();
+		} else if (item.equals("veggie")) {
+		    	return new ChicagoStyleVeggiePizza();
+		} else if (item.equals("clam")) {
+		    	return new ChicagoStyleClamPizza();
+		} else if (item.equals("pepperoni")) {
+	    		return new ChicagoStylePepperoniPizza();
+		} else return null;
+	}
+}

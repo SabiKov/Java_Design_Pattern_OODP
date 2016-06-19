@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package co.sabi11.factory;
+
+/**
+ * @author Sabi
+ *
+ */
+public class SimplePizzaFactory {
+
+}

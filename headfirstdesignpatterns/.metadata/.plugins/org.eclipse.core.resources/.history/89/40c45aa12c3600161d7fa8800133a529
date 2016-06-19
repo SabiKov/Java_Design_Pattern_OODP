@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package co.sabi11.store;
+
+import co.sabi11.factory.SimplePizzaFactory;
+
+/**
+ * @author Sabi
+ *
+ */
+public class PizzaStore {
+
+	SimplePizzaFactory factory;
+
+}

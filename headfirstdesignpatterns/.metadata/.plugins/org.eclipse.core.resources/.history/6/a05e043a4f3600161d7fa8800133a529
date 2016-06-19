@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package co.sabi11.items.interfaces.implementations;
+
+/**
+ * @author Sabi
+ * impementation of Veggie intrface
+ */
+public class Onion {
+	public String toString() {
+		return "Onion";
+	}
+}

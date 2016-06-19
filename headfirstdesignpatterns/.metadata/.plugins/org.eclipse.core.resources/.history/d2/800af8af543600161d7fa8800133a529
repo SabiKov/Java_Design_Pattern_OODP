@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package co.sabi11.base.extend;
+
+/**
+ * @author Sabi
+ *
+ */
+public class CheesePizza {
+
+	/**
+	 * 
+	 */
+	public CheesePizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
