@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package co.sabi11.base;
+
+import java.util.ArrayList;
+
+/**
+ * @author Sabi
+ *
+ */
+public abstract class Pizza {
+	
+	// Attributes
+	protected String name;
+	protected String dough;
+	protected String sauce;
+	ArrayList toppings = new ArrayList();
+	
+
+	/**
+	 * 
+	 */
+	public Pizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

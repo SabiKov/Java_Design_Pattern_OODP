@@ -1,0 +1,25 @@
+package co.sabi11.storeSubclasses;
+
+import co.sabi11.store.PizzaStore;
+
+public class NYPizzaStore extends PizzaStore {
+
+	public NYPizzaStore() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Pizza createPizza(type) {
+		
+		if(type.equals("cheese")) {
+			pizza = new NYStyleCheesePizza();
+		}
+		else if(type.equals("pepperoni")) {
+			pizza = new NYStylePepperoniPizza();
+		}
+		else if(type.equals("pepperoni")) {
+			pizza = new NYStylePepperoniPizza();
+		}
+		
+		return pizza;
+	}
+}

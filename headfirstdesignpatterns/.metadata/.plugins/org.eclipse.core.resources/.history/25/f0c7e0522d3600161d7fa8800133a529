@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package co.sabi11.pizzas;
+
+import co.sabi11.base.Pizza;
+
+/**
+ * @author Sabi
+ *
+ */
+public class CheesePizza extends Pizza {
+
+}

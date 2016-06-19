@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package co.sabi11.items.interfaces.implementations;
+
+/**
+ * @author Sabi
+ * Implementation of sauce
+ */
+public class MarinaraSauce implements Sauce {
+
+	
+}

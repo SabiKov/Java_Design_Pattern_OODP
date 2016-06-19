@@ -1,7 +1,5 @@
 import co.sabi11.base.AbstractDuck;
-import co.sabi11.interfaces.FlyNoWay;
 import co.sabi11.interfaces.FlyRocketPowered;
-import co.sabi11.interfaces.FlyWithWings;
 import co.sabi11.subclass.MallardDuck;
 import co.sabi11.subclass.ModelDuck;
 

@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package co.sabi11.factory;
+
+/**
+ * @author Sabi
+ * This is a pizza factory class for creating pizza
+ */
+public class SimplePizzaFactory {
+
+	public Pizza createPizza(String type) {
+		
+		Pizza pizza = null;
+		
+		if(type.equals("cheese"))
+	}
+}

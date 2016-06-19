@@ -1,0 +1,11 @@
+package co.sabi11.storeSubclasses;
+
+import co.sabi11.store.PizzaStore;
+
+public class ChicagoPizzaStore extends PizzaStore {
+
+	public ChicagoPizzaStore() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

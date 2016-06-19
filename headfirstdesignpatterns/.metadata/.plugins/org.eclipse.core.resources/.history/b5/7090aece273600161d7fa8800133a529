@@ -1,0 +1,9 @@
+package co.sabi11.base;
+
+public abstract class Pizza {
+
+	protected String name;
+	protected String dough;
+	protected String sauce;
+	protected ArrayList<String> toppings = new ArrayList<String>();
+}

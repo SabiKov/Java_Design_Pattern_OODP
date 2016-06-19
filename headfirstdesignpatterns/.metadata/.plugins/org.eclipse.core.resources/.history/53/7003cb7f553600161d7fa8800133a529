@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package co.sabi11.base.extend;
+
+/**
+ * @author Sabi
+ *
+ */
+public class ClamPizza extends Pizza{
+
+	/**
+	 * 
+	 */
+	public ClamPizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

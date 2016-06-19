@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package co.sabi11.store;
+
+import co.sabi11.factory.SimplePizzaFactory;
+
+/**
+ * @author Sabi
+ *
+ */
+public abstract class PizzaStore {
+
+	// Adding reference of pizza factory
+	SimplePizzaFactory factory;
+	
+	/**
+	 * Class gets the factory's reference passed to the constructor
+	 */
+	public PizzaStore(SimplePizzaFactory factory) {
+		
+		this.factory = factory;
+	}
+
+	public Pizza orderPizza(String type) {
+		
+		Pizza pizza;
+		
+		// Sign the pizza object to choice of pizza type
+		pizza = factory.createPizza(type);
+		
+		pizza.prepare();
+		pizza.bake();
+		pizza.cut();
+		pizza.box();
+		return pizza;
+	}
+	
+	abstract createPizza(String type);
+}

@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package co.sabi11.base;
+
+/**
+ * @author Sabi
+ *
+ */
+public abstract class Pizza {
+	
+	// Attributes
+	protected String name;
+
+	/**
+	 * 
+	 */
+	public Pizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

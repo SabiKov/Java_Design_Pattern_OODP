@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package co.sabi11.pizzas;
+
+import co.sabi11.base.Pizza;
+
+/**
+ * @author Sabi
+ *
+ */
+public class CheesePizza extends Pizza {
+
+	// Default constructor
+	public CheesePizza() {
+		name = "Cheese Pizza";
+		dough = "Regular Crust";
+		sauce = "Marinara Pizza Sauce";
+		toppings.add("Fresh Mozzarella");
+		toppings.add("Parmesan");
+	}
+}

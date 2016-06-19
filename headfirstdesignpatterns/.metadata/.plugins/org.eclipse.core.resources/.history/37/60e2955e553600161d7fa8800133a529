@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package co.sabi11.base.extend;
+
+import co.sabi11.base.Pizza;
+
+/**
+ * @author Sabi
+ *
+ */
+public class VeggiePizza extends Pizza {
+
+	/**
+	 * 
+	 */
+	public VeggiePizza(PizzaIngredientFactory ingredientFactory) {
+		this.ingredientFactory = ingredientFactory;
+	}
+
+	@Override
+	protected void prepare() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package co.sabi11.storeSubclasses;
+
+import co.sabi11.store.PizzaStore;
+
+public class CaliforniaPizzaStore extends PizzaStore {
+
+	public CaliforniaPizzaStore() {
+		
+	}
+
+}

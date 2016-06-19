@@ -1,0 +1,23 @@
+package co.sabi11.storeSubclasses;
+
+import co.sabi11.store.PizzaStore;
+
+public class CaliforniaPizzaStore extends PizzaStore {
+
+	public Pizza createPizza(String item) {
+		
+		if(item.equals("cheese")) {
+			pizza = new CaliforniaStyleCheesePizza();
+		}
+		else if(item.equals("pepperoni")) {
+			pizza = new CaliforniaStylePepperoniPizza();
+		}
+		else if(item.equals("clam")) {
+			pizza = new CaliforniaStyleClamPizza();
+		}
+		else if(type.equals("veggie")) {
+			pizza = new CaliforniaStyleVeggiePizza();
+		}
+		return pizza;
+	}
+}

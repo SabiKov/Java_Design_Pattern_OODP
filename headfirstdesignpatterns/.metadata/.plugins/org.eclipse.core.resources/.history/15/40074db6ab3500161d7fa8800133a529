@@ -1,0 +1,9 @@
+package co.sabi11.pizza.subclasses;
+
+public class ChicagoStyleCheesePizza {
+
+	public ChicagoStyleCheesePizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

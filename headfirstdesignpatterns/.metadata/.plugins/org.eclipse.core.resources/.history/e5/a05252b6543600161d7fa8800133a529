@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package co.sabi11.base.extend;
+
+/**
+ * @author Sabi
+ *
+ */
+public class CheesePizza {
+
+	// Instantiate 
+	PizzaIngredientFactory ingredientFactory;
+	
+	
+	/**
+	 * 
+	 */
+	public CheesePizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
