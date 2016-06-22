@@ -9,10 +9,6 @@ import co.sabi11.items.interfaces.Veggies;
 
 public interface PizzaIngredientFactory {
 	
-	/*
-	 * All ingredients are implemented as an interface.
-	 * Each ingredient has its own class implementation
-	 * */
 	public Dough createDough();
 	public Sauce createSauce();
 	public Cheese createCheese();
