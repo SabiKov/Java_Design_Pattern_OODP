@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.management.Descriptor"/>
-<fullyQualifiedTypeName name="co.sabi11.base.CondimentDecorator"/>
-<fullyQualifiedTypeName name="co.sabi11.subclasses.Espresso"/>
-<fullyQualifiedTypeName name="co.sabi11.subclasses.DarkRoast"/>
 <fullyQualifiedTypeName name="co.sabi11.subclasses.decorators.Mocha"/>
 <fullyQualifiedTypeName name="co.sabi11.subclasses.decorators.Whip"/>
 <fullyQualifiedTypeName name="co.sabi11.subclasses.HouseBlend"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="co.sabi11.store.subclasses.NYPizzaStore"/>
 <fullyQualifiedTypeName name="co.sabi11.store.subclasses.ChicagoPizzaStore"/>
 <fullyQualifiedTypeName name="co.sabi11.base.Pizza"/>
+<fullyQualifiedTypeName name="co.sabi11.singleton.Chocolateboiler"/>
+<fullyQualifiedTypeName name="co.sabi11.singleton.ChocolateBoiler"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="co.sabi11.singleton.Singleton"/>
 </qualifiedTypeNameHistroy>
