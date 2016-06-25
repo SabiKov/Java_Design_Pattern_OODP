@@ -1,6 +1,0 @@
-package co.sabi11.base;
-
-public abstract class CondimentDecorator extends Beverage {
-
-	public beverage beverage;
-}

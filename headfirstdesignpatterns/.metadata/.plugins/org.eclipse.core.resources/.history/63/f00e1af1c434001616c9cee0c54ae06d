@@ -1,9 +1,0 @@
-package co.sabi11.subclass.decorators;
-
-public class Soy extends CondimentDecorator {
-
-	public Soy() {
-		
-	}
-
-}

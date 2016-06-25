@@ -1,9 +1,0 @@
-package co.sabi11.subclass;
-
-public class HouseBlend extends Beverage  {
-
-	public HouseBlend() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

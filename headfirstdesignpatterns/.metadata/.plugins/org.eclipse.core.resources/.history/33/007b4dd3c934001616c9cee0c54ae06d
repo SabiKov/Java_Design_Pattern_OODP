@@ -1,9 +1,0 @@
-package co.sabi11.subclass.decorators;
-
-public class SteamedMilkextends CondimentDecorator {
-
-	public SteamedMilk() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

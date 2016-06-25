@@ -1,9 +1,0 @@
-package decorator_io;
-
-public class LowerCaseInputStream {
-
-	public LowerCaseInputStream() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

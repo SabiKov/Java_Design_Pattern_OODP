@@ -1,9 +1,0 @@
-package co.sabi11.subclass;
-
-public class Decaf {
-
-	public Decaf() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

@@ -1,9 +1,0 @@
-package co.sabi11.subclass.decorators;
-
-public class Soy {
-
-	public Soy() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

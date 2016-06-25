@@ -1,9 +1,0 @@
-package co.sabi11.subclass;
-
-public class Espresso {
-
-	public Espresso() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
