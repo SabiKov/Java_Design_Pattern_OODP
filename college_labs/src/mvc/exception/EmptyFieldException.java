@@ -5,7 +5,11 @@ import javax.swing.JOptionPane;
 
 public class EmptyFieldException extends RuntimeException {
 
-	private String message;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public EmptyFieldException() {
 		super();
 	}
